@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -35,14 +35,14 @@
                     <a href="#questions" class="nav-link">Työtehtävät</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#tutkinnonosat" class="nav-link">Tutkinnon muodostuminen</a>
+                    <a href="#" class="nav-link">Tutkinnon muodostuminen</a>
                 </li>
                 <li class="nav-item">
                     <a href="#arviointi" class="nav-link">Arviointikriteerit</a>
                 </li>
             </ul>
         </div>
-    
+    </div>
     </nav>
     
     <!-- Showcase-->
@@ -64,6 +64,29 @@
         </div>
     </section>
 
+    <!-- Newsletter-->
+    <section class="bg-primary text-light p-5">
+        <!--
+        <div class="contianer">
+            <div class="d-md-flex justify-content-between-align-items-center">
+                <h4 class="mb-3 mb-md-0">Tilaa uutiskirje</h4>
+                <div class="input-group mb-3 news-input">
+                    <input 
+                    type="text" 
+                    class="form-control" 
+                    placeholder="Sähköpostiosoitteesi" 
+                    />
+                    <button 
+                    class="btn btn-dark btn-lg" 
+                    type="button" 
+                    >
+                    Lähetä
+                </button>
+                </div>
+            </div>
+        </div>
+    -->
+    </section>
 
     <!-- Boxes -->
     <section class="p-5">
@@ -87,13 +110,13 @@
                     <div class="card bg-secondary text-light">
                         <div class="card-body text-center">
                             <div class="h1 mb-3">
-                                <i class="bi bi-diagram-3-fill"></i>
+                                <i class="bi bi-person-square"></i>
                             </div>
                             <h3 class="card-title mb-3">Tutkinnon osat</h3>
                             <p class="card-text">
                                 Tutkinto on 180 opintopisteen laajuinen
                             </p>
-                            <a href="#tutkinnonosat" class="btn btn-dark">Lue lisää</a>
+                            <a href="#" class="btn btn-dark">Lue lisää</a>
                         </div>
                     </div>
                 </div>
@@ -101,7 +124,7 @@
                     <div class="card bg-dark text-light">
                         <div class="card-body text-center">
                             <div class="h1 mb-3">
-                                <i class="bi bi-list-stars"></i>
+                                <i class="bi bi-pencil"></i>
                             </div>
                             <h3 class="card-title mb-3">Arviointi</h3>
                             <p class="card-text">
@@ -116,7 +139,7 @@
     </section>
 
     <!-- Osa-alueiden esittelyt -->
-    <section class="p-5">
+    <section id="learn" class="p-5">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md">
@@ -136,7 +159,7 @@
             </div>
         </div>
     </section>
-    <section class="p-5 bg-dark text-light">
+    <section id="learn" class="p-5 bg-dark text-light">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md p5">
@@ -145,28 +168,40 @@
                     Ammatilliset tutkinnon osat arvioidaan asteikolla 1–5 tutkinnon osan ammattitaitovaatimusten ja
                     arviointikriteerien mukaisesti. 
                     </p>
+                    Opiskelijan osaaminen arvioidaan tutkinnon osittain. Tutkinnon osan arvosana
+                    määräytyy sen mukaan, mille arviointiasteikon tasolle opiskelijan osaaminen kokonaisuutena parhaiten
+                    sijoittuu.</p>
+                    
                     <a href="#arviointi" class="btn btn-light mt-3">
                         <i class="bi bi-chevron-right"></i>
                         Lue lisää arvioinnista
                     </a>
                 </div>
                 <div class="col-md">
-                    <img src="img/todistus2.svg" class="img-fluid w-50 d-none d-sm-block" alt="" />
+                    <img src="img/logo2.svg" class="img-fluid w-50 d-none d-sm-block" alt="" />
                 </div>
             </div>
         </div>
     </section>
-    <section class="p-5">
+    <section id="learn" class="p-5">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md">
-                    <img src="img/tutkinnonmuodostuminen.svg" class="img-fluid w-50 d-none d-sm-block" alt="" />
+                    <img src="img/logo.svg" class="img-fluid w-50 d-none d-sm-block" alt="" />
                 </div>
                 <div class="col-md p5">
                     <h2>Tutkinnon muodostuminen</h2>
                     <p class="lead">
-                        Tutkinnon osia ovat tieto- ja viestintätekniikan perustehtävät, ohjelmointi, ohjelimistokehittäjänä toimimien sekä verkkopalvelun tekninen toteuttaminen.</p>
-                    <a href="#tutkinnonosat" class="btn btn-light mt-3">
+                        Tutkinnon osia ovat tieto- ja viestintätekniikan perustehtävät, ohjelmointi, ohjelimistokehittäjänä toimimien sekä verkkopalvelun tekninen toteuttaminen.
+                    </p>
+                    <p> Tieto- ja viestintätekniikan perustutkinnon laajuus on 180 osaamispistettä. Tutkinto muodostuu
+                        ammatillisista tutkinnon osista (145 osaamispistettä) ja yhteisistä tutkinnon osista (35
+                        osaamispistettä).
+                    </p>
+                    <p>
+                        Ammatillisista tutkinnon osista pakollisia on 70—115 osaamispistettä ja valinnaisia 30—75
+                        osaamispistettä. </p>
+                    <a href="#questions" class="btn btn-light mt-3">
                         <i class="bi bi-chevron-right"></i>
                         Lue lisää tutkinnon osien ammattitaitovaatimuksista</a>
                 </div>
@@ -296,99 +331,107 @@
                         <div class="accordion-body">Tieto- ja viestintätekniikan perustutkinnon rakenne ja sisältö on suunniteltu niin, että sähkö- ja automaatioalalla
                             toimiminen -tutkinnon osan suorittaneella on rajoitettuun sähköpätevyyteen 3 määritelty soveltuva koulutus.</div>
     </section>
-
     <!-- Osaamisen arviointi-->
-    
-<section id="arviointi" class="p-5 bg-dark">
+<section id="arviointi" class="p-5 bg-primary">
     <div class="container">
         <h2 class="text-center text-white">Arviointikriteerit</h2>
-        
-        <table class="table table-primary">
-            <thead>
-                <tr>
-                <th scope="col"></th>
-                <th scope="col">
-                    Opiskelijan osaaminen arvioidaan tutkinnon osittain. Tutkinnon osan arvosana
-                    määräytyy sen mukaan, mille arviointiasteikon tasolle opiskelijan osaaminen kokonaisuutena parhaiten
-                    sijoittuu.
-                </p>
-                <p>Ammatilliset tutkinnon osat arvioidaan asteikolla 1–5 tutkinnon osan ammattitaitovaatimusten ja
-                    arviointikriteerien mukaisesti. Opiskelijan osaaminen arvioidaan tutkinnon osittain. Tutkinnon osan arvosana
-                    määräytyy sen mukaan, mille arviointiasteikon tasolle opiskelijan osaaminen kokonaisuutena parhaiten
-                    sijoittuu.
-                </p>
-                <p>
-                    Yhteisten tutkinnon osien osa-alueet ja yritystoiminnan suunnittelu, työpaikkaohjaajaksi valmentautuminen,
-                    yrityksessä toimiminen ja huippuosaajana toimiminen tutkinnon osat arvioidaan asteikolla 1–5 tutkinnon osan
-                    ammattitaitovaatimusten, osaamistavoitteiden ja arviointikriteerien mukaisesti. Arvosanat 2 ja 4 määräytyvät
-                    seuraavasti:
-                </p>
-                <p>
-                    2 = Opiskelijan osaamisen taso ylittää selkeästi 1-tason, mutta ei yllä 3-tasolle.
-                </p>
-                <p>
-                    4 = Opiskelijan osaamisen taso ylittää selkeästi 3-tason, mutta ei yllä 5-tasolle.
-                </p></th>
-                </tr>
-                <tr>
-                <th scope="col">Arvosana</th>
-                <th scope="col">Opiskelija...</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Tyydyttävä 1</th>
-                <td><ul>
-                    <li>toteuttaa työn ohjeiden mukaisesti 
-                    <li>toimii yhteistyökykyisesti
-                    <li>tarvitsee joissakin tilanteissa lisäohjeita
-                    <li>hyödyntää työssä tarvittavaa perustietoa
-                    <li>muuttaa toimintaansa saamansa palautteen mukaisesti
-                    </ul></td>
-              </tr>
-              <tr>
-                <th scope="row">Tyydyttävä 2</th>
-                <td><ul>
-                    <li>toteuttaa työn oma-aloitteisesti ja ohjeiden mukaisesti
-                    <li>toimii yhteistyökykyisesti ja vuorovaikutteisesti
-                    <li>tarvitsee vain harvoissa tilanteissa lisäohjeita
-                    <li>hyödyntää työssä tarvittavaa tietoa tarkoituksenmukaisesti
-                    <li>muuttaa toimintaansa saamansa palautteen ja omien havaintojen mukaisesti
-                    </ul></td>
-              </tr>
-              <tr>
-                <th scope="row">Hyvä 3</th>
-                <td colspan="2"><ul>
-                    <li>toteuttaa työkokonaisuuden itsenäisesti
-                    <li>toimii toimii yhteistyökykyisesti ja aloitteellisesti vuorovaikutustilanteissa
-                    <li>selviytyy tavanomaisista ongelmanratkaisutilanteista
-                    <li>hyödyntää työssä tarvittavaa tietoa monipuolisesti
-                    <li>arvioi suoriutumistaan realistisesti
-                    </ul></td>
-              </tr>
-              <tr>
-                <th scope="row">Hyvä 4</th>
-                <td><ul>
-                    <li>suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti
-                    <li>toimii yhteistyökykyisesti ja rakentavasti vuorovaikutustilanteissa
-                    <li>selviytyy ongelmanratkaisutilanteista hyödyntäen monipuolisia ratkaisutapoja
-                    <li>soveltaa työssä tarvittavaa tietoa monipuolisesti ja perustellusti
-                    <li>arvioi suoriutumistaan realistisesti sekä tunnistaa vahvuuksiaan ja kehittämisen kohteitaan
-                    </ul></td>
-              </tr>
-              <tr>
-                <th scope="row">Kiitettävä 5</th>
-                <td colspan="2"><ul>
-                    <li>suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti ottaen huomioon muut toimijat
-                    <li>toimii yhteistyökykyisesti ja rakentavasti haastavissakin vuorovaikutustilanteissa
-                    <li>arvioi suoriutumistaan realistisesti sekä tunnistaa vahvuuksiaan ja kehittämisen kohteitaan
-                    <li>soveltaa työssä tarvittavaa tietoa ongelmanratkaisutilanteissa monipuolisesti ja kriittisestiperustietoa
-                    <li>arvioi suoriutumistaan realistisesti ja esittää perusteltuja ratkaisuja osaamisensa kehittämiseen
-                    <li>ymmärtää oman työnsä merkityksen osana laajempaa kokonaisuutta 
-                    </ul></td>
-              </tr>
+        <p class="text-left text-white mb-5">
             
-          </table>  
+            Yhteisten tutkinnon osien osa-alueet ja yritystoiminnan suunnittelu, työpaikkaohjaajaksi valmentautuminen,
+            yrityksessä toimiminen ja huippuosaajana toimiminen tutkinnon osat arvioidaan asteikolla 1–5 tutkinnon osan
+            ammattitaitovaatimusten, osaamistavoitteiden ja arviointikriteerien mukaisesti. 
+            <br>Arvosanat 2 ja 4 määräytyvät
+            seuraavasti:<br>
+            
+            2 = Opiskelijan osaamisen taso ylittää selkeästi 1-tason, mutta ei yllä 3-tasolle.
+            <br>
+            4 = Opiskelijan osaamisen taso ylittää selkeästi 3-tason, mutta ei yllä 5-tasolle.
+            </p>
+        </p>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-left">
+                        <h3 class="card-title text-center mb-3">Tyydyttävä 1</h3>
+                        <p>Opiskelija</p>
+                        <p class="card-text">
+                            <ul>
+                                <li>toteuttaa työn ohjeiden mukaisesti 
+                                <li>toimii yhteistyökykyisesti
+                                <li>tarvitsee joissakin tilanteissa lisäohjeita
+                                <li>hyödyntää työssä tarvittavaa perustietoa
+                                <li>muuttaa toimintaansa saamansa palautteen mukaisesti
+                                </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-left">
+                        <h3 class="card-title text-center mb-3">Tyydyttävä 2</h3>
+                        <p>Opiskelija</p>
+                        <p class="card-text">
+                            <ul>
+                                <li>toteuttaa työn oma-aloitteisesti ja ohjeiden mukaisesti
+                                <li>toimii yhteistyökykyisesti ja vuorovaikutteisesti
+                                <li>tarvitsee vain harvoissa tilanteissa lisäohjeita
+                                <li>hyödyntää työssä tarvittavaa tietoa tarkoituksenmukaisesti
+                                <li>muuttaa toimintaansa saamansa palautteen ja omien havaintojen mukaisesti
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-left">
+                        <h3 class="card-title text-center mb-3">Hyvä 3</h3>
+                        <p>Opiskelija</p>
+                        <p class="card-text">
+                            <ul>
+                                <li>toteuttaa työkokonaisuuden itsenäisesti
+                                <li>toimii toimii yhteistyökykyisesti ja aloitteellisesti vuorovaikutustilanteissa
+                                <li>selviytyy tavanomaisista ongelmanratkaisutilanteista
+                                <li>hyödyntää työssä tarvittavaa tietoa monipuolisesti
+                                <li>arvioi suoriutumistaan realistisesti
+                                </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-6">
+                <div class="card bg-light">
+                    <div class="card-body text-left">
+                        <h3 class="card-title text-center mb-3">Hyvä 4</h3>
+                        <p>Opiskelija</p>
+                        <p class="card-text">
+                            <ul>
+                                <li>suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti
+                                <li>toimii yhteistyökykyisesti ja rakentavasti vuorovaikutustilanteissa
+                                <li>selviytyy ongelmanratkaisutilanteista hyödyntäen monipuolisia ratkaisutapoja
+                                <li>soveltaa työssä tarvittavaa tietoa monipuolisesti ja perustellusti
+                                <li>arvioi suoriutumistaan realistisesti sekä tunnistaa vahvuuksiaan ja kehittämisen kohteitaan
+                                </ul> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-left">
+                        <h3 class="card-title text-center mb-3">Kiitettävä 5</h3>
+                        <p>Opiskelija</p>
+                        <p class="card-text">
+                            <ul>
+                                <li>suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti ottaen huomioon muut toimijat
+                                <li>toimii yhteistyökykyisesti ja rakentavasti haastavissakin vuorovaikutustilanteissa
+                                <li>arvioi suoriutumistaan realistisesti sekä tunnistaa vahvuuksiaan ja kehittämisen kohteitaan
+                                <li>soveltaa työssä tarvittavaa tietoa ongelmanratkaisutilanteissa monipuolisesti ja kriittisestiperustietoa
+                                <li>arvioi suoriutumistaan realistisesti ja esittää perusteltuja ratkaisuja osaamisensa kehittämiseen
+                                <li>ymmärtää oman työnsä merkityksen osana laajempaa kokonaisuutta 
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 <!-- Tutkinnon osat-->
@@ -396,14 +439,7 @@
 <section id="tutkinnonosat" class="p-5">
     <div class="container">
         <h2 class="text-center mb-4">Tutkinnon osat</h2>
-    
-    <p class="bg-dark text-light p-3"> Tieto- ja viestintätekniikan perustutkinnon laajuus on 180 osaamispistettä. Tutkinto muodostuu
-        ammatillisista tutkinnon osista (145 osaamispistettä) ja yhteisistä tutkinnon osista (35
-        osaamispistettä).
-    </p>
-    <p class="bg-secondary text-dark p-3">
-        Ammatillisista tutkinnon osista pakollisia on 70—115 osaamispistettä ja valinnaisia 30—75
-        osaamispistettä. </p>
+        
         <div class="accordion accordion-flush" id="tutkinnonosat">
             <div class="accordion-item">
               <h2 class="accordion-header">
@@ -420,8 +456,7 @@
               id="tutkinto-one" 
               class="accordion-collapse collapse" 
               data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">            
-                    Koodi: 106413
+                <div class="accordion-body">            Koodi: 106413
                     Järjestysnumero: 1
         
                     <h4>Ammattitaito&shy;vaatimukset</h4>
@@ -469,8 +504,7 @@
               id="tutkinto-two" 
               class="accordion-collapse collapse" 
               data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                    Koodi: 106419
+                <div class="accordion-body">Koodi: 106419
                     Järjestysnumero: 7
         
                     <h4>Ammattitaito&shy;vaatimukset</h4>
